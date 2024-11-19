@@ -1,0 +1,214 @@
+/* 2xl */
+@media (max-width: 1536px) {
+    /* Adicione estilos específicos aqui, se necessário */
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .menu nav ul li a {
+        font-size: 10px;
+    }
+
+    .brand-details img {
+        width: 70%; /* Ajuste proporcional para telas grandes */
+    }
+
+    .full-banner-3 {
+        width: auto;
+        height: 250px;
+        /* background-size: contain; */
+        background-size: contain; /* Imagem será contida dentro da área visível */
+        padding: 40px 0; /* Ajuste do espaçamento */
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .container{
+        /* width: min-content; */
+    }
+    .menu nav ul li a {
+        font-size: 8px;
+    }
+
+    .brand-details img {
+        width: 60%;
+    }
+
+    .full-banner-3 {
+        width: min-content;
+        height: 200px;
+        /* background-size: auto; */
+        background-size: contain; /* Imagem será contida dentro da área visível */
+        padding: 40px 0; /* Ajuste do espaçamento */
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    html{
+        width: fit-content
+    }
+    .menu nav ul li a {
+        font-size: 12px; /* Tamanho mais legível */
+    }
+
+    header img {
+        width: 50%; /* Certifique-se de que header está no HTML */
+    }
+
+    .brand-cybertruk img {
+        width: 30%;
+    }
+
+    .hero {
+        background-size: 20%;
+    }
+
+    .banner .content h1 {
+        font-size: 28px; /* Ajuste para legibilidade */
+    }
+
+    .banner .content p {
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+
+    .banner .content button {
+        padding: 10px 30px;
+        max-width: 90%;
+    }
+
+    .catalogue .catalogue-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .full-banner-1 .full-banner-content h3{
+        font-size: 20px;
+    }
+    .full-banner-2 .full-banner-content h3{
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    form .form-left-side .row-input .form-input{
+    height: 30px;
+    }
+
+    form .form-right-side .row-input .form-input{
+    height: 30px;
+    padding-bottom: 0;
+    }
+    form .form-right-side {
+    
+    padding-bottom: 0px;
+    }
+
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .menu nav ul li a {
+        font-size: 10px;
+    }
+
+    .brand-details img {
+        width: 50%;
+    }
+
+    .hero {
+        background-size: contain; /* Imagem será contida dentro da área visível */
+        padding: 40px 0; /* Ajuste do espaçamento */
+    }
+
+    .banner .content h1 {
+        font-size: 24px;
+    }
+
+    .banner .content p {
+        font-size: 10px;
+    }
+
+    .banner .content button {
+        padding: 8px 20px;
+        max-width: 85%;
+    }
+
+    .catalogue .catalogue-grid {
+        gap: 20px;
+    }
+
+    .container .menu-horizontal-footer{
+        flex-direction: column;
+    }
+   .container .right-side .specifications .form-left-side .row-input input{
+    height: 40px;
+   }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .menu nav ul li a {
+        font-size: 8px;
+    }
+
+    .brand-details img {
+        width: 40%;
+    }
+
+    .hero {
+        background-size: 30%;
+    }
+
+    .banner{
+        height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .banner .content{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner .content h1 {
+        font-size: 20px;
+    }
+
+    .banner .content p {
+        font-size: 8px;
+    }
+
+    .banner .content button {
+        padding: 6px 15px;
+        max-width: 80%;
+    }
+
+    .catalogue .catalogue-grid {
+        gap: 10px;
+    }
+    .catalogue .catalogue-grid .item-car img {
+        width: 50%;
+    }
+    .full-banner-1 .full-banner-content h3{
+        font-size: 15px;
+    }
+    .full-banner-1 .full-banner-content .action-butons-banner button{
+        padding: 6px 15px;
+    }
+    .full-banner-2 .full-banner-content h3{
+        font-size: 10px;
+        text-align: center;
+        /* background-color: red; */
+        padding: 0px 15px;
+    }
+    .full-banner-2 .full-banner-content .action-butons-banner button{
+        padding: 6px 15px;
+       
+    }
+}

@@ -1,0 +1,525 @@
+body{
+  font-family: "Orbitron", sans-serif;
+}
+
+.header-home-page{
+    background-color: #212121;
+}
+.header-details-page{
+    background: #F1F1F1;
+}
+.container{
+    max-width: 1640px;
+    width: 90%;
+    margin: 0 auto;
+}
+.details-container{
+    max-width: 1640px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.left-side{
+    width: 30%;
+}
+.right-side{
+    width: 80%;
+
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.menu nav ul{
+    display: flex;
+    align-items: center;
+    color: #9A9999;
+    gap: 50px;
+
+}
+.menu nav ul a{
+    color: #9A9999;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.menu ul a.active{
+    color: #FFFFFF
+}
+.hero{
+    background-image: url("../img/banner-1.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+.banner{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.brand-cybertruk{
+    text-align: center;
+}
+
+.brand-details, img{
+    /* background-color: #000000; */
+}   
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content h1{
+    font-size: 36px;
+    color: #FFFFFF;
+    font-weight: normal;
+    width: 23%;
+    line-height: 45px;
+}
+.content p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 300;
+    width: 30%;
+    line-height: 30px;
+}
+
+.content button{
+    background-color: #212121;
+    border: none;
+    color: #9A9999;
+    font-family: inherit;
+    text-transform: uppercase;
+    padding: 15px 80px;
+    font-size: 12px;
+    border-radius: 2px;
+
+}
+.content .border-button{
+    border-top: 3px solid #9A9999;
+    cursor: pointer;
+}
+
+.catalogue{
+    padding: 60px 0
+}
+.catalogue h2{
+    color: #9A9999;
+    font-size: 14px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.catalogue-grid{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.item-car{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.item-car img{
+    width: 100%;
+}
+
+.item-car h3{
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.item-car a{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #9A9999;
+}
+
+
+.actions{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #9A9999;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.full-banner-1{
+    background-image: url("../img/banner-2.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    width: 100%;
+    height:525px;
+}
+.full-banner-2{
+    background-image: url("../img/banner-3.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    width: 100%;
+    height:525px;
+}
+
+.full-banner-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.full-banner-content h3{
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 40px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.full-banner-1 button, .full-banner-2 button{
+    padding: 15px 80px;
+    border: none;
+    border-radius: 2px;
+    font-family: inherit;
+    color: #828282;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.full-banner-1 .btn-primary, .full-banner-2 .btn-primary{
+    padding: 15px 80px;
+    border: none;
+    border-radius: 2px;
+    font-family: inherit;
+    color: #FFFFFF;
+    font-size: 10px;
+    background: #3E6AE1;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.action-butons-banner{
+    display: flex;
+    gap: 20px;
+}
+
+.texts-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 38%;
+    margin: 0 auto;
+    padding: 60px 0;
+    gap: 15px;
+}
+
+.texts-info p{
+    font-size: 12px;
+    color: #828282;
+    line-height: 20px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.texts-info a{
+    font-size: 12px;
+    color: #828282;
+    line-height: 20px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    text-decoration: underline;
+}
+
+.menu-horizontal-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 10px;
+    color: #212121;
+    padding-bottom: 60px;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.first-section-details{
+    display: flex;
+    flex-direction: row;
+ 
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.vehicle-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    padding-right: 100px;
+    gap: 250px;
+    height: 30%;
+}
+
+.vehicle-details img{
+    width: 100%;
+}
+
+.vehicle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    justify-content: flex-start;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.car-model{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.car-model img{
+    width: 100%;
+}
+.car-model h3{
+    margin: 0 auto;
+    color: #000000 !important;
+
+}
+
+.vehicle h3:first-of-type {
+    align-self: flex-start; 
+    color: #9A9999;
+    font-size: 10px;
+    letter-spacing: 10px;
+
+}
+
+.specifications{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    
+}
+
+.register{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 40px;
+    height: 100%;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #4C4C4C;
+}
+.form-left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.row-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.row-input label{
+    font-weight: 600;
+    font-size: 10px;
+    color: #9A9999;
+    padding-bottom: 10px;
+    letter-spacing: 10px;
+
+}
+.row-input input{
+    background: #F0F0F0;
+    border: 2px solid transparent; 
+    transition: border-color 0.3s ease;
+    outline: none;
+    height: 51px;
+}
+.row-input input:focus {
+    border-top:  2px solid #1E1E1E; 
+}
+
+.form-right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+    width: 50%;
+    gap: 30px;
+    /* background-color: red; */
+}
+
+.second-section-details{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+    
+}
+
+.title-section-black{
+    margin-top: 30px;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.selection-area, .select-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.select-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    gap: 30px;
+    padding-bottom: 60px;
+    border-bottom: 2px solid #4C4C4C;
+}
+.select-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.select-row label{
+    
+    color: #9A9999;
+   
+}
+
+.label-button{
+    width: 400px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
+}
+
+.option-label{
+    color: #000000 !important;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.radio-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.radio {
+    appearance: none; /* Remove o estilo padrão do botão de rádio */
+    width: 16px;
+    height: 16px;
+    background-color: #E1DEDE; /* Cor quando desmarcado */
+    border: 2px solid #E1DEDE;
+    border-radius: 50%; /* Faz o elemento ser circular */
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.radio:checked {
+    border-color: 1px solid black; /* Borda preta */
+}
+
+.radio:checked::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #000000; /* Pequeno círculo branco */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.total-price-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 30px;
+}
+.line, .line-total{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-total-section{
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.line-total{
+    text-align: center;
+    background: #F0F0F0;
+    /* height: 56px; */
+    padding: 26px 20px;
+    /* width: 102%; */
+    margin-left: -25px;
+}
